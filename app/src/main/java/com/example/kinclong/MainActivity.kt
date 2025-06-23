@@ -15,7 +15,7 @@ import com.google.firebase.database.ValueEventListener
 class MainActivity : AppCompatActivity() {
 
     private var firebaseDatabase: FirebaseDatabase = FirebaseDatabase.getInstance()
-    private var firebaseReference: DatabaseReference = firebaseDatabase.getReference("IoT/")
+    private var firebaseReference: DatabaseReference = firebaseDatabase.getReference("device/")
 
     private var isRunning = false
     private var isPaused = false
